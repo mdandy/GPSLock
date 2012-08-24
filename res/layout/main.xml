@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/BtnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BtnFile"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Map"
+        android:width="150dp" />
+
+    <Button
+        android:id="@+id/BtnFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="Read from File"
+        android:width="150dp" />
+
+    <Button
+        android:id="@+id/BtnReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BtnFile"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Reminder App"
+        android:width="150dp" />
+
+</RelativeLayout>
